@@ -36,7 +36,10 @@
   }
   .header_logo {
     position: absolute;
-    left: 35%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
   }
   .header_item {
     font-family: "Roboto-Regular", sans-serif;
@@ -49,19 +52,13 @@
     text-decoration: none;
     margin-right: 36px;
   }
-  .header_item::after {
-    transition: all 0.5s;
-  }
-  .header_item::before {
-    color: #555;
-  }
   .header_item:hover {
     color: #555;
     transform: scale(0.8);
     border-bottom: 1px solid #212A2F;
   }
   .header_icons {
-    margin-right: 17px;
+    margin-right: 5px;
   }
   .hero{
     background-image: url(../images/herobg.png);
