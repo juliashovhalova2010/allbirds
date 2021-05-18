@@ -10,7 +10,7 @@
   .container {
     max-width: 1380px;
     width: 100%;
-    margin: auto auto;
+    margin: 0 auto;
   }
   
   .header {
@@ -23,23 +23,14 @@
   }
   .header_menu{
     display: flex;
+    justify-content: space-between;
   }
   .header_left {
-    display: flex;
-    justify-content: flex-start;
     padding: 21px 27px 18px;
-  }
-  .header_rights {
-    display: flex;
-    justify-content: flex-end;
   }
   .header_right {
     padding: 12px 27px 18px;
     position: absolute;
-  }
-  .header_center {
-    display: flex;
-    justify-content: center;
   }
   .header_logo {
     position: absolute;
