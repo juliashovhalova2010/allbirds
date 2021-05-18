@@ -32,11 +32,12 @@
     right: 57%;
     top: calc(50% - 45px/2);
   }
-  .header_right {
-    padding: 12px 27px 18px;
+  .header_right {  
     position: absolute;
-    right: 14%;
-    top: 14px;
+    height: 78px;
+    left: 57%;
+    right: 0%;
+    top: calc(50% - 78px/2);
   }
   .header_logo {
     position: absolute;
