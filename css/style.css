@@ -65,7 +65,13 @@
     border-bottom: 1px solid #212A2F;
   }
   .header_icons {
-    margin-right: 17px;
+    position: absolute;
+    left: 0.03%;
+    right: 0%;
+    top: 0.05%;
+    bottom: -0.23%;
+
+    background: #000000;
   }
   
   .hero{
