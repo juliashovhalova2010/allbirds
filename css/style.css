@@ -110,12 +110,20 @@
     background: #212A2F;
     color: #FFFFFF;
   }
+  .container {
+    max-width: 1380px;
+    width: 100%;
+  }
   .favorites {
-    padding: 119px 0 142px;
+    padding: 119px 102px 142px;
+  }
+  .favorites_tabs_content{
+    display: block;
   }
   .favorites_tabs_content {
-    display: none;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
   }
   .favorites_title {
     font-family: "Roboto-Regular", sans-serif;
@@ -146,7 +154,8 @@
     border: none;
     text-align: center;
     transition: 0.5s;
-
+  }
+  .favorites_tabs_tab:hover{
     border-bottom: 2px solid #212a2f;
   }
   .favorites_tabs_tab:hover {
@@ -156,13 +165,16 @@
   .favorites {
     margin-top: 34px;
   }
+  .col {
+    justify-content: space-between;
+  }
   .favorites_col {
     position: relative;
-    margin-bottom: 17px;
+    margin-bottom: 18px;
   }
   .favorites_col_img {
-    height: 396px;
-    width: 396px;
+    height: 362px;
+    width: 362px;
   }
   .favorites_col_buttons {
     width: 276px;
@@ -174,7 +186,7 @@
   }
   .favorites_col_buttons:hover {
     opacity: 1;
-    color: #F5F5F5;
+    color: #2e2d2d;
   }
   .favorites_col_btn {
     width: 276px;
@@ -191,7 +203,7 @@
     border: none;
     text-align: center;
     margin-bottom: 12px;
-    position: absolute;
+    position: relative;
     top: 144px;
     left: 38px;
   }
