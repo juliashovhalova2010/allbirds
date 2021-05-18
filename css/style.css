@@ -21,6 +21,9 @@
     z-index: 2;
     position: fixed;
   }
+  .header_menu{
+    display: flex;
+  }
   .header_left {
     display: flex;
     justify-content: flex-start;
@@ -40,6 +43,9 @@
   }
   .header_logo {
     position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0px;
   }
   .header_item {
     font-family: "Roboto-Regular", sans-serif;
