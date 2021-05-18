@@ -161,11 +161,11 @@
     margin-bottom: 17px;
   }
   .favorites_col_img {
-    height: 100%;
-    width: 100%;
+    height: 396px;
+    width: 396px;
   }
   .favorites_col_buttons {
-    width: 100%;
+    width: 396px;
     height: 396px;
     opacity: 0;
     position: absolute;
