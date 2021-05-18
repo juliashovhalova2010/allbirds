@@ -8,17 +8,17 @@
     text-decoration: none;
   }
   .container {
-    max-width: 1380px;
+    max-width: 1440px;
     width: 100%;
     margin: 0 auto;
   }
   .header {
+    position: fixed;
     padding: 11px 0;
     background-color: #ffffff;
     height: 60px;
     width: 100%;
     z-index: 2;
-    position: fixed;
   }
   .header_menu {
     display: flex;
@@ -35,7 +35,6 @@
   }
   .header_logo {
     position: absolute;
-    left: 35%;
   }
   .header_item {
     font-family: "Roboto-Regular", sans-serif;
