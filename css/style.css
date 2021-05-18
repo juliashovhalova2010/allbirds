@@ -13,7 +13,7 @@
     margin: 0 auto;
   }
   
-  .header{
+  .header {
     padding: 11px 0;
     background-color: #ffffff;
     height: 60px;
@@ -29,11 +29,10 @@
   .header_right {
     display: flex;
     justify-content: flex-end;
-    padding: 21px 27px 18px;
+    padding: 12px 27px 18px;
     position: absolute;
-    right: 30px;
   }
-  .header_center{
+  .header_center {
     display: flex;
     justify-content: center;
   }
