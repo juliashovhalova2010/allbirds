@@ -239,4 +239,61 @@
     margin-bottom: 18px;
     margin-right: 10px;
   }
- 
+  .shoes {
+    padding: 0 0 120px;
+    text-align: center;
+  }
+  .shoes .container {
+    display: initial;
+  }
+  .shoes_img {
+    width: 100%;
+    height: 542px;
+    background: url(../images/shoesbg.png) no-repeat center/cover;
+    margin-bottom: 47px;
+  }
+  .shoes_title {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 32px;
+    color: #212A2F;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    margin-bottom: 18px;
+  }
+  .shoes_subtitle {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 16px;
+    color: #212A2F;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+  .shoes_buttons {
+    position: absolute;
+    left: 36%;
+  }
+  .shoes_btn {
+    width: 180px;
+    height: 48px;
+    background-color: #212A2F;
+    color: #FFFFFF;
+    border-radius: 2px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "Roboto-normal", sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border: none;
+    text-align: center;
+    margin-right: 24px;
+    transition: 0.5s;
+  }
+  .shoes_btn:hover {
+    background: #FFFFFF;
+    color: #212A2F;
+    border: 2px solid #212A2F;
+  }
+  
