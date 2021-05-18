@@ -12,6 +12,7 @@
     width: 100%;
     margin: 0 auto;
   }
+  
   .header {
     padding: 11px 0;
     background-color: #ffffff;
@@ -20,24 +21,20 @@
     z-index: 2;
     position: fixed;
   }
-  .header_info {
+  .header_menu {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
   .header_left {
     padding: 15px 27px 18px;
   }
   .header_right {
-    display: flex;
-    justify-content:flex-end;
     padding: 12px 27px 18px;
     position: absolute;
     right: 14%;
     top: 14px;
   }
   .header_logo {
-    display: flex;
-    justify-content: center;
     position: absolute;
     left: 35%;
   }
@@ -66,7 +63,6 @@
   .header_icons {
     margin-right: 17px;
   }
-  
   .hero{
     background-image: url(../images/herobg.png);
     background-position: center;
