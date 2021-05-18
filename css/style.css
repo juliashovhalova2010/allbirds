@@ -25,7 +25,11 @@
     justify-content: space-between;
   }
   .header_left {
-    padding: 15px 27px 18px;
+    position: absolute;
+    height: 45px;
+    left: 0%;
+    right: 57%;
+    top: calc(50% - 45px/2);
   }
   .header_right {
     padding: 12px 27px 18px;
