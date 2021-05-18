@@ -16,10 +16,6 @@
   }
   .header {
     position: fixed;
-    width: 1405.09px;
-    height: 45.13px;
-    left: calc(50% - 1405.09px/2 - 427.86px);
-    top: 9px;
     z-index: 2;
   }
   .header_menu {
