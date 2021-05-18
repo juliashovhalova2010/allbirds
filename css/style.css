@@ -26,10 +26,10 @@
     justify-content: space-between;
   }
   .header_left {
-    padding: 15px 27px 18px;
+    padding: 21px 27px 18px;
   }
   .header_right {
-    padding: 12px 27px 18px;
+    padding: 21px 27px 18px;
     position: absolute;
     right: 14%;
     top: 14px;
