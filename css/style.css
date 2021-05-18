@@ -113,6 +113,10 @@
   .favorites {
     padding: 119px 0 142px;
   }
+  .favorites_tabs_content {
+    display: none;
+    display: block;
+  }
   .favorites_title {
     font-family: "Roboto-Regular", sans-serif;
     font-size: 32px;
