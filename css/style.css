@@ -191,8 +191,7 @@
     border: none;
     text-align: center;
     margin-bottom: 12px;
-    position: absolute;
-    transform: translateX(42px);
+    position: relative;
     top: 144px;
     left: 38px;
   }
