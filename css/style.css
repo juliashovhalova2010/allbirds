@@ -36,6 +36,7 @@
   }
   .header_logo {
     position: absolute;
+    left: 40px;
   }
   .header_item {
     font-family: "Roboto-Regular", sans-serif;
