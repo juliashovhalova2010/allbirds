@@ -31,12 +31,12 @@
   .header_right {
     padding: 12px 27px 18px;
     position: absolute;
+    right: 14%;
+    top: 14px;
   }
   .header_logo {
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0px;
+    left: 35%;
   }
   .header_item {
     font-family: "Roboto-Regular", sans-serif;
