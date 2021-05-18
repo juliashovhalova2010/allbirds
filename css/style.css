@@ -58,7 +58,7 @@
     margin-right: 17px;
   }
   .home {
-    background: url("images/herobg.png") top left/100% 100% no-repeat cover;
+    background: url("../images/herobg.png") top left/100% 100% no-repeat cover;
     padding: 321px 0 66px;
   }
   .home_title {
