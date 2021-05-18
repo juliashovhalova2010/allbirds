@@ -110,4 +110,118 @@
     background: #212A2F;
     color: #FFFFFF;
   }
-  
+  .favorites {
+    padding: 119px 0 142px;
+  }
+  .favorites_title {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 32px;
+    color: #212A2F;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .favorites_tabs_caption {
+    text-align: center;
+    border-bottom: 2px solid #d3d4d5;
+  }
+  .favorites_tabs_tab {
+    width: 125px;
+    height: 48px;
+    background-color: #FFFFFF;
+    color: #212a2f;
+    border-radius: 2px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border: none;
+    text-align: center;
+    transition: 0.5s;
+
+    border-bottom: 2px solid #212a2f;
+  }
+  .favorites_tabs_tab:hover {
+    background: #212a2f;
+    color: #FFFFFF;
+  }
+  .favorites .row {
+    margin-top: 34px;
+  }
+  .favorites_col {
+    position: relative;
+    margin-bottom: 17px;
+  }
+  .favorites_col_img {
+    height: 100%;
+    width: 100%;
+  }
+  .favorites_col_buttons {
+    width: 100%;
+    height: 396px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  .favorites_col_buttons:hover {
+    opacity: 1;
+    color: #F5F5F5;
+  }
+  .favorites_col_btn {
+    width: 276px;
+    height: 48px;
+    background-color: #FFFFFF;
+    color: #212A2F;
+    border-radius: 2px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border: none;
+    text-align: center;
+    margin-bottom: 12px;
+    position: absolute;
+    transform: translateX(42px);
+    top: 144px;
+    left: 38px;
+  }
+  .favorites_col_btn:hover {
+    background-color: #212a2f;
+    color: #FFFFFF;
+  }
+  .favorites_description {
+    padding: 0 30px;
+  }
+  .favorites__description_title {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 22px;
+    color: #212A2F;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d3d4d5;
+  }
+  .favorites_description_subtitle {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 14px;
+    color: #212A2F;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    font-weight: normal;
+  }
+  .favorites_description_post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    margin-right: 10px;
+  }
+ 
