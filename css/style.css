@@ -26,6 +26,10 @@
     justify-content: space-between;
   }
   .header_left {
+    height: 45px;
+    left: 0%;
+    right: 57%;
+    top: calc(50% - 45px/2);
     padding: 15px 27px 18px;
   }
   .header_right {
@@ -48,6 +52,7 @@
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 36px;
+    text-align: center;
   }
   .header_item:hover {
     color: #555;
