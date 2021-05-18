@@ -58,7 +58,10 @@
     margin-right: 17px;
   }
   .home {
-    background: url("../images/3d8ede17965de6e3a4c8a3f133f21dba.jpg") top left/100% 100% no-repeat cover;
+    background-image: url("../images/3d8ede17965de6e3a4c8a3f133f21dba.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     padding: 321px 0 66px;
   }
   .home_title {
