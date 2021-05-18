@@ -7,59 +7,62 @@
   a {
     text-decoration: none;
   }
-  .header{
-    background-color: #FFFFFF;
+  .container {
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header {
     padding: 11px 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1400px;
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
   }
-  .header_row{
-    display: flex;
-    justify-content: center;
-  }
-  .header_left{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 620px;
-  }
-  .header_menu_left,.header_menu_right,.header_menu{
-    font-style: normal;
-    line-height: 21px;
-    text-transform: uppercase;
-    color: #212A2F;
-    font-size: 12px;
-    font-weight: normal;
-    font-family: "Roboto", sans-serif;
-  }
-  .header_midle{
-    display: flex;
-  }
-  .header_logo{
-    display: flex;
-    justify-content: center;
-    padding:0 40px;
-    width: 120px;
-    height: 39px;
-  }
-  .header_menu_left{
-    margin-right: 36px;
-  }
-  .header_menu_right{
-    margin-right: 30px;
-  }
-  .header_right{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 620px;
-  }
-  .header_svg{
+  .header_menu {
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
   }
+  .header_left {
+    padding: 15px 27px 18px;
+  }
+  .header_right {
+    padding: 12px 27px 18px;
+    position: absolute;
+    right: 14%;
+    top: 14px;
+  }
+  .header_logo {
+    position: absolute;
+    left: 35%;
+  }
+  .header_item {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 12px;
+    color: #212A2F;
+    line-height: 21px;
+    letter-spacing: 1.7px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 36px;
+  }
+  .header_item::after {
+    transition: all 0.5s;
+  }
+  .header_item::before {
+    color: #555;
+  }
+  .header_item:hover {
+    color: #555;
+    transform: scale(0.8);
+    border-bottom: 1px solid #212A2F;
+  }
+  .header_icons {
+    margin-right: 17px;
+  }
+  
   .hero{
     background-image: url(../images/herobg.png);
     background-position: center;
