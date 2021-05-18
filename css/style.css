@@ -10,7 +10,7 @@
   .container {
     max-width: 1380px;
     width: 100%;
-    margin: 0 auto;
+    margin: auto auto;
   }
   
   .header {
@@ -26,9 +26,11 @@
     justify-content: flex-start;
     padding: 21px 27px 18px;
   }
-  .header_right {
+  .header_rights {
     display: flex;
     justify-content: flex-end;
+  }
+  .header_right {
     padding: 12px 27px 18px;
     position: absolute;
   }
