@@ -244,11 +244,7 @@
     text-align: center;
   }
   .shoes .container {
-    display: initial;
-  }
-  .container{
-    display: flex;
-    justify-content: center;
+  display: initial;
   }
   .shoes_img {
     width: 100%;
@@ -273,6 +269,10 @@
     letter-spacing: 0.5px;
     font-weight: normal;
     margin-bottom: 30px;
+  }
+  .shoes_buttons {
+    display: flex;
+    justify-content: center;
   }
   .shoes_btn {
     width: 180px;
