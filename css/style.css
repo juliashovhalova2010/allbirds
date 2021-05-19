@@ -30,6 +30,10 @@
 .header_center{
   padding: 11px 0 10px;
 }
+.header_logo {
+  position: absolute;
+  left: 40px;
+}
 .header_right{
   display: flex;
 }
