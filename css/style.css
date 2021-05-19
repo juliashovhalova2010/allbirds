@@ -32,7 +32,6 @@
 }
 .header_right{
   display: flex;
-  vertical-align: middle;
 }
 .header_right_other{
   padding: 21px 27px 18px;
