@@ -317,6 +317,7 @@
   .carousel {
     padding: 65px 90px 120px;
   }
+
   .carousel_title {
     font-family: "Roboto-Regular", sans-serif;
     font-size: 32px;
@@ -327,18 +328,19 @@
     margin-bottom: 24px;
 
   }
-  
+  .slider{
+    display: flex;
+    justify-content: space-between;
+  }
   .images_slider {
     display: flex;
     text-align: center;
+
     width: 362px;
     height: 362px;
     margin-bottom: 17px;
   }
-  .slider_item{
-    display: flex;
-    justify-content: space-between;
-  }
+
   .carousel .slider_item_subtitle {
     font-family: "Roboto-Regular", sans-serif;
     font-size: 22px;
