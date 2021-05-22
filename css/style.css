@@ -327,14 +327,12 @@
     margin-bottom: 24px;
 
   }
-  .carousel .slider img {
+  .images_slider {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    position: relative;
     width: 362px;
     height: 362px;
-    margin-right: 24px;
     margin-bottom: 17px;
   }
   .carousel .slider_item_subtitle {
