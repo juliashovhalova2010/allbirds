@@ -371,13 +371,9 @@
   .video {
     margin-bottom: 47px;
   }
-  .video_item {
-    height: 542px;
-    object-fit: cover;
-    cursor: pointer;
-  }
   .for_nature_desc {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
   }
