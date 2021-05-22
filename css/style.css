@@ -314,7 +314,8 @@
     max-width: 1380px;
     width: 100%;
     display: flex;
-    
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
   .carousel {
     padding: 65px 90px 120px;
