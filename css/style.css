@@ -308,13 +308,13 @@
   }
   .carousel {
     padding: 0 0 138px;
+    position: relative;
   }
   .container {
     max-width: 1380px;
     width: 100%;
   }
   .carousel {
-    display: block;
     padding: 65px 90px 120px;
   }
   .carousel_title {
@@ -331,6 +331,7 @@
     display: flex;
     text-align: center;
     justify-content: space-between;
+    position: absolute;
     width: 362px;
     height: 362px;
     margin-right: 24px;
@@ -353,4 +354,17 @@
     transform: scale(0.8);
     -webkit-text-decoration: #555;
             text-decoration: #555;
+  }
+  .carousel_prev {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 50%;
+  }
+  .carousel_next {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 50%;
+    right: 10px;
   }
