@@ -308,7 +308,6 @@
     font-size: 32px;
     line-height: 42px;
 
-
     color: #212A2F;
   }
   .slider{
@@ -319,8 +318,5 @@
     padding-top: 12px;
     padding-bottom: 78px;
   }
-  .container_carousel{
-    max-width: 1380px;
-    width: 100%;
-  }
+
 
