@@ -333,6 +333,7 @@
   .carousel .slider img {
     display: flex;
     text-align: center;
+    justify-content: space-between;
     width: 362px;
     height: 362px;
     margin-right: 24px;
