@@ -313,6 +313,8 @@
   .container {
     max-width: 1380px;
     width: 100%;
+    display: flex;
+    
   }
   .carousel {
     padding: 65px 90px 120px;
