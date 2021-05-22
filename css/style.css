@@ -120,7 +120,7 @@
     background: #212A2F;
     color: #FFFFFF;
   }
-  .container {
+  .container_favorites{
     max-width: 1380px;
     width: 100%;
   }
@@ -314,7 +314,9 @@
   .carousel {
     padding: 65px 90px 120px;
   }
+  .container_carousel{
 
+  }
   .carousel_title {
     font-family: "Roboto-Regular", sans-serif;
     font-size: 32px;
