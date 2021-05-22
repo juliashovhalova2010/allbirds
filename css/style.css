@@ -309,7 +309,6 @@
   .carousel {
     padding: 0 0 138px;
     position: relative;
-    display: flex;
   }
   
   .carousel_title {
@@ -335,6 +334,7 @@
     right: 10px;
   }
   .carousel .slider img {
+    display: flex;
     text-align: center;
     width: 362px;
     height: 362px;
