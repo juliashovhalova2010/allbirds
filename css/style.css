@@ -313,8 +313,8 @@
   }
   .slider{
     position: relative;
-    height: 100%;
-    width: 100%;
+    height: 396px;
+    width: 396px;
     overflow: hidden;
     padding-top: 12px;
     padding-bottom: 78px;
@@ -322,6 +322,5 @@
   .container_carousel{
     max-width: 1380px;
     width: 100%;
-    margin: 0px auto;
   }
-  
+
