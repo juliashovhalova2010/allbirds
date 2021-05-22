@@ -364,3 +364,64 @@
     top: 201px;
     bottom: 147px;
   }
+
+  .for_nature {
+    padding: 0 0 119px;
+  }
+  .for_nature .container {
+    padding: 0;
+  }
+  .for_nature .video {
+    margin-bottom: 47px;
+  }
+  .for_nature .video_item {
+    height: 542px;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .for_nature_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .for_nature_desc-title {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 32px;
+    color: #212A2F;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    margin-bottom: 22px;
+  }
+  .for_nature_desc-subtitle {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 16px;
+    color: #212A2F;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    margin-bottom: 26px;
+  }
+  .for_nature_desc-btn {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 17px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    background-color: #212A2F;
+    width: 384px;
+    height: 48px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    transition: 0.5s;
+  }
+  .for_nature_desc-btn:hover {
+    background: #FFFFFF;
+    color: #212A2F;
+    border: 2px solid #212A2F;
+  }
