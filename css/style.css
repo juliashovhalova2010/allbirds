@@ -177,6 +177,16 @@
   .favorites_col_img {
     height: 362px;
     width: 362px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+
     transition: opacity 250ms ease-out 0s, background-color 250ms ease-out 0s;
   }
   .favorites_col_buttons {
