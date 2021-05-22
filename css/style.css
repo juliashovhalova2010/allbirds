@@ -176,6 +176,7 @@
     margin-top: 34px;
   }
   .col {
+    display: flex;
     justify-content: space-between;
   }
   .favorites_col {
@@ -327,6 +328,7 @@
   .slider{
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
   }
   .images_slider {
     display: flex;
