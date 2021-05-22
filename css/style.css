@@ -338,8 +338,9 @@
   }
   .carousel .slider img {
     text-align: center;
-    width: 396px;
-    height: 396px;
+    width: 362px;
+    height: 362px;
+    margin-right: 24px;
     padding-right: -50px;
     margin-bottom: 17px;
   }
