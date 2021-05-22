@@ -373,7 +373,7 @@
   }
   .for_nature .video_item {
     height: 542px;
-    width: 100%;
+    max-width: 1440px;
     object-fit: cover;
     cursor: pointer;
   }
