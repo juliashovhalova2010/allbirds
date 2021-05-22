@@ -368,10 +368,10 @@
   .for_nature {
     padding: 0 0 119px;
   }
-  .for_nature .video {
+  .video {
     margin-bottom: 47px;
   }
-  .for_nature .video_item {
+  .video_item {
     height: 542px;
     max-width: 1440px;
     object-fit: cover;
