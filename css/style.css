@@ -309,6 +309,7 @@
   .carousel {
     padding: 0 0 138px;
     position: relative;
+    display: flex;
   }
   
   .carousel_title {
