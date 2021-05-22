@@ -326,7 +326,7 @@
     letter-spacing: 0.5px;
     font-weight: normal;
     margin-bottom: 24px;
-
+    margin-right: 24px;
   }
   .slider{
     display: flex;
@@ -340,7 +340,6 @@
     height: 362px;
     margin-bottom: 17px;
   }
-
   .carousel .slider_item_subtitle {
     font-family: "Roboto-Regular", sans-serif;
     font-size: 22px;
