@@ -327,13 +327,17 @@
     margin-bottom: 24px;
 
   }
+  
   .images_slider {
     display: flex;
     text-align: center;
-    justify-content: space-between;
     width: 362px;
     height: 362px;
     margin-bottom: 17px;
+  }
+  .slider_item{
+    display: flex;
+    justify-content: space-between;
   }
   .carousel .slider_item_subtitle {
     font-family: "Roboto-Regular", sans-serif;
