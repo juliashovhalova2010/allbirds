@@ -315,8 +315,7 @@
     width: 100%;
   }
   .carousel {
-    display: flex;
-    display: inline-block;
+    display: block;
     padding: 65px 90px 120px;
   }
   .carousel_title {
@@ -355,17 +354,4 @@
     transform: scale(0.8);
     -webkit-text-decoration: #555;
             text-decoration: #555;
-  }
-  .carousel_prev {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    bottom: 50%;
-  }
-  .carousel_next {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    bottom: 50%;
-    right: 10px;
   }
