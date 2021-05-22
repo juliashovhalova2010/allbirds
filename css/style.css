@@ -125,7 +125,7 @@
     width: 100%;
   }
   .favorites {
-    padding: 119px 102px 142px;
+    padding: 104px 102px 120px;
   }
   .favorites_tabs_content{
     display: block;
@@ -309,11 +309,14 @@
   .carousel {
     padding: 0 0 138px;
     position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
   }
-  
+  .container {
+    max-width: 1380px;
+    width: 100%;
+  }
+  .carousel {
+    padding: 65px 90px 120px;
+  }
   .carousel_title {
     font-family: "Roboto-Regular", sans-serif;
     font-size: 32px;
@@ -322,6 +325,7 @@
     letter-spacing: 0.5px;
     font-weight: normal;
     margin-bottom: 24px;
+
   }
   .carousel .slider img {
     display: flex;
