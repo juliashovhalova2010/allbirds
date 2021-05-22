@@ -319,3 +319,9 @@
     padding-top: 12px;
     padding-bottom: 78px;
   }
+  .container_carousel{
+    max-width: 1380px;
+    width: 100%;
+    margin: 0px auto;
+  }
+  
