@@ -320,19 +320,6 @@
     font-weight: normal;
     margin-bottom: 24px;
   }
-  .carousel_prev {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    bottom: 50%;
-  }
-  .carousel_next {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    bottom: 50%;
-    right: 10px;
-  }
   .carousel .slider img {
     display: flex;
     text-align: center;
@@ -359,4 +346,17 @@
     transform: scale(0.8);
     -webkit-text-decoration: #555;
             text-decoration: #555;
+  }
+  .carousel_prev {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 50%;
+  }
+  .carousel_next {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 50%;
+    right: 10px;
   }
