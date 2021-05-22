@@ -309,14 +309,12 @@
   }
   .carousel {
     padding: 0 0 138px;
-    position: relative;
+
   }
   .carousel {
     padding: 65px 90px 120px;
   }
-  .container_carousel{
 
-  }
   .carousel_title {
     font-family: "Roboto-Regular", sans-serif;
     font-size: 32px;
@@ -330,7 +328,6 @@
   .slider{
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
   }
   .images_slider {
     display: flex;
