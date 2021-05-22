@@ -177,7 +177,6 @@
   .favorites_col_img {
     height: 362px;
     width: 362px;
-    opacity: 0;
     transition: opacity 250ms ease-out 0s, background-color 250ms ease-out 0s;
   }
   .favorites_col_buttons {
