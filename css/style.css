@@ -315,6 +315,7 @@
     width: 100%;
   }
   .carousel {
+    display: block;
     padding: 65px 90px 120px;
   }
   .carousel_title {
