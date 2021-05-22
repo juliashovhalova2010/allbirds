@@ -8,7 +8,7 @@
     text-decoration: none;
   }
   .container {
-    max-width: 1380px;
+    max-width: 1440px;
     width: 100%;
     margin: 0 auto;
   }
@@ -110,7 +110,7 @@
     background: #212A2F;
     color: #FFFFFF;
   }
-  .container {
+  .container_home {
     max-width: 1380px;
     width: 100%;
   }
@@ -177,15 +177,6 @@
   .favorites_col_img {
     height: 362px;
     width: 362px;
-
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-
-
-    transition: opacity 250ms ease-out 0s, background-color 250ms ease-out 0s;
   }
   .favorites_col_buttons {
     width: 276px;
