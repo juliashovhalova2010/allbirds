@@ -310,6 +310,11 @@
     padding: 0 0 138px;
     position: relative;
   }
+  .carousel .container {
+    max-width: 1380px;
+    height: 100%;
+    padding: 50px;
+  }
   .carousel_title {
     font-family: "Roboto-Regular", sans-serif;
     font-size: 32px;
