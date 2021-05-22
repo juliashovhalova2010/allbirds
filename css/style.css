@@ -43,6 +43,21 @@ nav a i{
     display: flex;
     align-items: center;
 }
+.navbarNav .navbarNavLi .navbarNavA, .menWomen a{
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+  color: #212A2F;
+}
+.menWomen a{
+  padding: 0 1rem;
+}
   .home {
     background-image: url(../images/3d8ede17965de6e3a4c8a3f133f21dba.jpg);
     background-repeat: no-repeat;
