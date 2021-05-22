@@ -8,7 +8,7 @@
     text-decoration: none;
   }
     .container{
-    max-width: 1380px;
+    max-width: 1440px;
     width: 100%;
     margin: 0 auto; 
   }
@@ -311,7 +311,6 @@
     position: relative;
   }
   .carousel .container {
-    max-width: 1380px;
     height: 100%;
     padding: 50px;
   }
