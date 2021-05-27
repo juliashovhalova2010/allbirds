@@ -1,127 +1,328 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Allbirds</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Allbirds</title>
+    <link rel="stylesheet" href="css/style.css">
+ 
+
+
 
 </head>
 <body>
-	<header class="header">
-		<div class="container">
-			<div class="header_menu">
-					<div class="header_left">
-						<a href="#" class="header_item_left">men</a>
-						<a href="#" class="header_item">women</a>
-					</div>
-          				<div class="header_center">
-						<img src="svg/logo.svg" alt="logo" class="header_logo">
-					</div>
-					<div class="header_right">
-            				<div class="header_right_other">
-						<a href="#" class="header_item_right">our materials</a>
-						<a href="#" class="header_item_right">stores</a>
-				      </div>
-				      <div class="header_icon">
-					   	 <a class="header_icons" href="#"><img src="svg/user.svg" alt="user"></a>
-						<a class="header_icons" href="#"><img src="svg/question.svg" alt="question"></a>
-						<a class="header_icons" href="#"><img src="svg/buy.svg" alt="buy"></a>	
-     					 </div>
-					</div>
-			</div>
-		</div>
-	</header>
-<main>
-	<section class="home">
-        <div class="container_home">
-            <h1 class="home_title">Running Shoes Made From Trees</h1>
-            <p class="home_subtitle">New colors to keep you moving</p>
-            <div class="home_buttons">
-                <button class="home_btn">shop men</button>
-                <button class="home_btn">shop women</button>
+<header class="header">
+    <div class="container">
+        <div class="header__menu">
+            <div class="header__info">
+                <div class="header__left">
+                    <a href="#" class="header__item">men</a>
+                    <a href="#" class="header__item">women</a>
+                </div>
+                <div class="header__right">
+                    <a href="#" class="header__item">our materials</a>
+                    <a href="#" class="header__item">stores</a>
+                </div>
+            </div>
+            <div class="header__center">
+                <img src="images/header/logo.svg" alt="logo" class="header__logo">
+            </div>
+            <div class="header__icons">
+                <a class="header__icons" href="#"><img src="images/header/profile.svg" alt="profile"></a>
+                <a class="header__icons" href="#"><img src="images/header/help.svg" alt="help"></a>
+                <a class="header__icons" href="#"><img src="images/header/basket.svg" alt="basket"></a>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="home">
+        <div class="container">
+            <h1 class="home__title">Running Shoes Made From Trees</h1>
+            <p class="home__subtitle">New colors to keep you moving</p>
+            <div class="home__buttons">
+                <button class="home__btn">shop men</button>
+                <button class="home__btn">shop women</button>
             </div>
         </div>
     </section>
-<section class="favorites">
-    <div class="container">
-        <h2 class="favorites_title">Our Favorites</h2>
-            <div class="favorites_tabs">
-                <div class="favorites_tabs_caption">
-                    <button class="favorites_tabs_tab">shoes</button>
-                    <button class="favorites_tabs_tab">apparel</button>
-                    <button class="favorites_tabs_tab">basics</button>
+    <section class="favorites">
+        <div class="container">
+            <h2 class="favorites__title">Our Favorites</h2>
+            <div class="favorites-tabs">
+                <div class="favorites-tabs__caption">
+                    <button class="favorites-tabs__tab favorites-tabs__tab_active">shoes</button>
+                    <button class="favorites-tabs__tab">apparel</button>
+                    <button class="favorites-tabs__tab">basics</button>
                 </div>
-				<div class="favorites_tabs_content">
-					<div class="col">
-							<div class="favorites_col">
-								<img src="images/shoes1.png" alt="shoes" class="favorites_col_img">
-								<div class="favorites_col_buttons">
-									<button class="favorites_col_btn">shop men</button>
-									<button class="favorites_col_btn">shop women</button>
-								</div>
-							</div>
-							<div class="favorites_description">
-								<h3 class="favorites_description_title">Tree Dasher</h3>
-								<div class="favorites_description_post">
-									<img src="svg/icon.svg" alt="icon"
-										class="favorites_description_icon">
-									<p class="favorites_description_subtitle">Daily Running Shoe</p>
-								</div>
-							</div>
-					</div>
-					<div class="col">
-							<div class="favorites_col">
-								<img src="images/shoes2.png" alt="shoes" class="favorites_col_img">
-							</div>
-							<div class="favorites_description">
-								<h3 class="favorites_description_title">Tree Runner</h3>
-								<div class="favorites_description_post">
-									<img src="svg/icon.svg" alt="icon"
-										class="favorites_description_icon">
-									<p class="favorites_description_subtitle">Light and Breezy Sneaker</p>
-								</div>
-							</div>	
-					</div>
-					<div class="col">
-							<div class="favorites_col">
-								<img src="images/shoes3.png" alt="shoes" class="favorites_col_img">
-								<div class="favorites_col_buttons">
-									<button class="favorites_col_btn">shop men</button>
-									<button class="favorites_col_btn">shop women</button>
-								</div>
-							</div>
-							<div class="favorites_description">
-								<h3 class="favorites_description_title">Wool Runner</h3>
-								<div class="favorites_description_post">
-									<img src="svg/icon2.svg" alt="icon"
-										class="favorites_description_icon">
-									<p class="favorites_description_subtitle">Cozy Sneaker</p>
-								</div>
-							</div>
-					</div>
-				 </div>
-			 </div>
-	 </div>
-</section>
-<section class="shoes">
-	<div class="container_shoes">
-		<div class="shoes_img">		
-		</div>
-		<h3 class="shoes_title">Colorful By Nature</h3>
-		<p class="shoes_subtitle">Merino Wool Shoes In Limited Edition Hues</p>
-		<div class="shoes_buttons">
-			<button class="shoes_btn">shop men</button>
-			<button class="shoes_btn">shop women</button>
-		</div>
-	</div>
-</section>
+                <div class="favorites-tabs__content favorites-tabs__content_active">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="favorites__col">
+                                <img src="images/favorites/shoes1.png" alt="shoes" class="favorites__col-img">
+                                <div class="favorites__col-buttons">
+                                    <button class="favorites__col-btn">shop men</button>
+                                    <button class="favorites__col-btn">shop women</button>
+                                </div>
 
-	
+                            </div>
+                            <div class="favorites__description">
+                                <h3 class="favorites__description-title">Tree Dasher</h3>
+                                <div class="favorites__description-post">
+                                    <img src="images/favorites/icon.svg" alt="icon"
+                                         class="favorites__description-icon">
+                                    <p class="favorites__description-subtitle">Daily Running Shoe</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="favorites__col">
+                                <img src="images/favorites/shoes2.png" alt="shoes" class="favorites__col-img">
+                            </div>
+                            <div class="favorites__description">
+                                <h3 class="favorites__description-title">Tree Runner</h3>
+                                <div class="favorites__description-post">
+                                    <img src="images/favorites/icon.svg" alt="icon"
+                                         class="favorites__description-icon">
+                                    <p class="favorites__description-subtitle">Light and Breezy Sneaker</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="favorites__col">
+                                <img src="images/favorites/shoes3.png" alt="shoes" class="favorites__col-img">
+                                <div class="favorites__col-buttons">
+                                    <button class="favorites__col-btn">shop men</button>
+                                    <button class="favorites__col-btn">shop women</button>
+                                </div>
+                            </div>
+                            <div class="favorites__description">
+                                <h3 class="favorites__description-title">Wool Runner</h3>
+                                <div class="favorites__description-post">
+                                    <img src="images/favorites/icon2.svg" alt="icon"
+                                         class="favorites__description-icon">
+                                    <p class="favorites__description-subtitle">Cozy Sneaker</p>
+                                </div>
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="shoes">
+        <div class="container">
+            <div class="shoes__img"></div>
+            <h3 class="shoes__title">Colorful By Nature</h3>
+            <p class="shoes__subtitle">Merino Wool Shoes In Limited Edition Hues</p>
+            <div class="shoes__buttons">
+                <button class="shoes__btn">shop men</button>
+                <button class="shoes__btn">shop women</button>
+            </div>
+        </div>
+    </section>
+    <section class="carousel">
+        <div class="container">
+            <h3 class="carousel__title">Shop By Category</h3>
+            <div class="slider">
+                <div class="slider__item">
+                    <img src="images/slider/1.png" alt="1">
+                    <a href="#" class="slider__item-subtitle">Men's Shoes</a>
+
+                </div>
+                <div class="slider__item">
+                    <img src="images/slider/2.png" alt="1">
+                    <a href="#" class="slider__item-subtitle">Women's Shoes</a>
+                </div>
+                <div class="slider__item">
+                    <img src="images/slider/3.png" alt="1">
+                    <a href="#" class="slider__item-subtitle">Men's Apparel</a>
+                </div>
+                <div class="slider__item">
+                    <img src="images/slider/4.png" alt="1">
+                    <a href="#" class="slider__item-subtitle">Women's Apparel</a>
+                </div>
+            </div>
+        </div>
+        <img src="images/slider/next.png" alt="next" class="carousel__next">
+    </section>
+    <section class="forNature">
+        <div class="container">
+            <div class="picture"></div>
+            <div class="forNature__desc">
+                <h3 class="forNature__desc-title">Made From Nature, For Nature</h3>
+                <p class="forNature__desc-subtitle">We craft with planet-friendly natural materials, like merino wool
+                    and eucalyptus trees, because they're our best chance for a sustainable future.</p>
+                <a href="#" class="forNature__desc-btn">See How</a>
+            </div>
+        </div>
+    </section>
+    <section class="arrivals">
+        <div class="container">
+            <h3 class="arrivals__title">New Arrivals</h3>
+            <div class="gallery swiper-container">
+                <div class="gallery__list swiper-wrapper">
+                    <div class="gallery__item swiper-slide"><img src="images/arrivals/1.jpg" alt="slide">
+                        <div class="gallery__item-text">
+                            <h3 class="gallery__item-title">Women's Tree Dasher</h3>
+                            <p class="gallery__item-subtitle">Limited Edition Color, Gaia</p>
+                        </div>
+                    </div>
+                    <div class="gallery__item swiper-slide"><img src="images/arrivals/2.jpg" alt="slide">
+                        <div class="gallery__item-text">
+                            <h3 class="gallery__item-title">Men's Tree Dasher</h3>
+                            <p class="gallery__item-subtitle">Limited Edition Color, Terra</p>
+                        </div>
+                    </div>
+                    <div class="gallery__item swiper-slide"><img src="images/arrivals/3.jpg" alt="slide">
+                        <div class="gallery__item-text">
+                            <h3 class="gallery__item-title">Women's Tree Runner</h3>
+                            <p class="gallery__item-subtitle">Limited Edition Color, Aspen</p>
+                        </div>
+                    </div>
+                    <div class="gallery__item swiper-slide"><img src="images/arrivals/4.jpg" alt="slide">
+                        <div class="gallery__item-text">
+                            <h3 class="gallery__item-title">Women's Tree Dasher</h3>
+                            <p class="gallery__item-subtitle">Limited Edition Color, Gaia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="photo">
+        <div class="container">
+            <div class="view view-tenth">
+                <img class="view__img" src="images/snapshot.jpg" alt="">
+            </div>
+            <div class="photo__desc">
+                <h3 class="photo__desc-title">Tread Lighter</h3>
+                <p class="photo__desc-subtitle">The standard sneaker emits 12.5 kg CO2e. Our average shoe emits 7.6 kg CO2e. Better,
+                    <br>but we want to do more. Our goal—have no carbon footprint from the start. The first step to reduce our footprint is to measure it. And even though we’re not at zero yet, we
+                    <br> can be. It’s all part of the plan.</p>
+                <button class="photo__desc-btn">Our Sustainability Approach</button>
+            </div>
+           
+        </div>
+    </section>
+    <section class="stories">
+        <div class="container">
+            <h3 class="stories__main-title">Stories</h3>
+            <div class="row">
+                <div class="col-4">
+                    <a href="images/stories/1.png/" data-width="1000" data-heght="1500" data-fancybox >
+                        <img src="images/stories/1.png" alt="story" class="stories__img">
+                    </a>
+                    <h3 class="stories__title">Run Hard, Tread Light</h3>
+                    <p class="stories__subtitle">Meet the Tree Dasher—a performance shoe <br>made with natural materials.</p>
+
+                </div>
+                <div class="col-4">
+                    <a href="images/stories/2.png/" data-width="1000" data-heght="1500" data-fancybox >
+                        <img src="images/stories/2.png" alt="story" class="stories__img">
+                    </a>
+                    <h3 class="stories__title">Our Doors Are Open</h3>
+                    <p class="stories__subtitle">The well-being of our retail communities is top <br> priority as our stores re-open around the
+                        globe.</p>
+                </div>
+                <div class="col-4">
+                    <a href="images/stories/3.png/" data-width="1000" data-heght="1500" data-fancybox >
+                        <img src="images/stories/3.png" alt="story" class="stories__img">
+                    </a>
+                    <h3 class="stories__title">We're A Certified B Corp</h3>
+                    <p class="stories__subtitle">From the very beginning, the environment has been a stakeholder here.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
 </main>
+<footer class="footer">
+    <div class="container">
+        <form class="footer__form">
+            <label class="footer__label">Enter your email to stay in touch!</label>
+            <div class="footer__email">
+                <input class="footer__input" type="email" required>
+                <button class="footer__button">Sign Up</button>
+            </div>
+        </form>
+        <div class="row footer__row">
+            <div class="col-3">
+                <h5 class="footer__title">Help</h5>
+                <ul>
+                    <li class="footer__list"><a class="footer__link" href="#">1-888-963-8944</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">1-814-251-9966 (Text)</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">help@allbirds.com</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Returns/Exchanges</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">FAQ/Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h5 class="footer__title">Shop</h5>
+                <ul>
+                    <li class="footer__list"><a class="footer__link" href="#">Men's Shoes</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Women's Shoes</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Men's Apparel</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Women's Apparel</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Socks</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Gift Cards</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Download the Allbirds App</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h5 class="footer__title">Company</h5>
+                <ul>
+                    <li class="footer__list"><a class="footer__link" href="#">Our Stores</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Our Story</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Our Materials</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Sustainability</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Partnerships</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Affiliates</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Bulk Orders</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Careers</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">Press</a></li>
+                    <li class="footer__list"><a class="footer__link" href="#">California Transparency Act</a></li>
+                </ul>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <h5 class="footer__title">Follow the Flock</h5>
+                <p class="footer__text">Exclusive offers, a heads up on new things, and sightings of Allbirds in the wild. Oh, we have cute sheep, too. #weareallbirds</p>
+            </div>
+            <div class="col-2">
+                <img src="images/footer/logo.svg" alt="logo">
+            </div>
+            <div class="col-6">
+                <div class="footer__images">
+                    <img src="images/footer/flag1.svg" alt="flag" class="footer__img">
+                    <img src="images/footer/flag2.svg" alt="flag" class="footer__img">
+                    <img src="images/footer/flag3.svg" alt="flag" class="footer__img">
+                    <img src="images/footer/flag4.svg" alt="flag" class="footer__img">
+                    <img src="images/footer/flag5.svg" alt="flag" class="footer__img">
+                    <img src="images/footer/flag6.svg" alt="flag" class="footer__img">
+                    <img src="images/footer/flag7.svg" alt="flag" class="footer__img">
+                    <img src="images/footer/flag8.svg" alt="flag" class="footer__img">
+                    <img src="images/footer/flag9.svg" alt="flag" class="footer__img">
+                </div>
+            </div>
+        </div>
+        <div class="footer__conclusion">
+
+        </div>
+       <p class="footer__terms">© 2021 Allbirds, Inc. All Rights Reserved. Terms, Privacy & Accessibility</p>
+    </div>
+</footer>
 
 
-
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery/jquery.fancybox.min.js"></script>
+<script src="libs/slick/slick.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
